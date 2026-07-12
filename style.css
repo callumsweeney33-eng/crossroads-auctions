@@ -382,3 +382,177 @@ nav {
 
 
 }
+/* ================================
+   AUCTIONS PAGE
+================================ */
+
+
+.dark-nav {
+
+    position: relative;
+    background:#111;
+    color:white;
+
+}
+
+
+.auction-header {
+
+    background:#111;
+    color:white;
+
+    padding:120px 8% 80px;
+
+    text-align:center;
+
+}
+
+
+.auction-header h1 {
+
+    font-size:60px;
+    margin-bottom:20px;
+
+}
+
+
+.auction-header p {
+
+    font-size:20px;
+    color:#ccc;
+
+}
+
+
+
+.auction-search {
+
+    margin:40px auto 0;
+
+    display:flex;
+
+    max-width:700px;
+
+}
+
+
+
+.auction-search input {
+
+    flex:1;
+
+    padding:18px;
+
+    border:none;
+
+    font-size:16px;
+
+}
+
+
+
+.auction-search button {
+
+    background:#c8a96a;
+
+    color:white;
+
+    border:none;
+
+    padding:0 35px;
+
+    font-weight:bold;
+
+}
+
+
+
+.filter-bar {
+
+    display:flex;
+
+    gap:15px;
+
+    flex-wrap:wrap;
+
+    margin-bottom:50px;
+
+}
+
+
+
+.filter-bar button {
+
+    padding:12px 25px;
+
+    border-radius:30px;
+
+    border:1px solid #ccc;
+
+    background:white;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+
+
+.filter-bar button:hover {
+
+    background:#c8a96a;
+
+    color:white;
+
+    border-color:#c8a96a;
+
+}
+
+
+
+/* Improve auction cards */
+
+.auction-card {
+
+    cursor:pointer;
+
+}
+
+
+
+.auction-card span {
+
+    color:#777;
+
+    font-size:14px;
+
+}
+
+
+
+@media(max-width:900px){
+
+
+.auction-header h1 {
+
+    font-size:42px;
+
+}
+
+
+.auction-search {
+
+    flex-direction:column;
+
+}
+
+
+.auction-search button {
+
+    padding:18px;
+
+}
+
+
+}
